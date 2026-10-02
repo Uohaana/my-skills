@@ -1,80 +1,84 @@
-# DXC Skill Library
+# DXC — Design & Commerce Skill Library
 
-A clean, reusable set of AI skill files for building storefront, brand, and admin experiences.
+A clean, focused skill library for building storefront, brand, and admin experiences with AI assistance.
 
-## Overview
+## Quick start
 
-This repo contains a focused skill library for creating polished commerce and brand websites without drifting into generic templates.
+**Skills** (use these directly with your AI agent):
+- [`landing-page-kit`](./skills/landing-page-kit.md) — build a landing page with hero, value props, and CTA
+- [`about-page-kit`](./skills/about-page-kit.md) — build an about/story page that matches the site
+- [`admin-panel-kit`](./skills/admin-panel-kit.md) — build a login-gated admin dashboard and management pages
+- [`store-admin-kit`](./skills/store-admin-kit.md) — build stock and order management for store operations
+- [`ui-styling`](./skills/ui-styling.md) — UI patterns with Tailwind and shadcn/ui
 
-The library is organized into three categories:
+**References** (use these to guide styling and component choices):
+- [`fonts`](./references/fonts.md) — font pairings by vibe
+- [`shadcn-components`](./references/shadcn-components.md) — component catalog
+- [`shadcn-theming`](./references/shadcn-theming.md) — color and theming
+- [`shadcn-accessibility`](./references/shadcn-accessibility.md) — accessibility patterns
+- [`tailwind-utilities`](./references/tailwind-utilities.md) — utility class guide
+- [`tailwind-responsive`](./references/tailwind-responsive.md) — responsive layout
+- [`tailwind-customization`](./references/tailwind-customization.md) — Tailwind config
+- [`canvas-design-system`](./references/canvas-design-system.md) — visual design principles
 
-- Storefront pages: landing pages, brand/story pages, and visual styling
-- Admin tools: back-office dashboards, stock management, and order control
-- UI system guidance: Tailwind, shadcn/ui, typography, responsiveness, and accessibility
+## What's included
 
-## Skill index
+### Skills
+Five focused skill files designed for use with AI coding agents:
 
-### Storefront / brand
-- `references/skills/landing-page-kit-SKILL.md` — build a landing page with hero, value props, CTA, and product storytelling
-- `references/skills/about-page-kit-SKILL.md` — create an about/story page that matches the brand's existing design
+1. **Landing Page Kit** — hero sections, value props, featured products, CTA, footer
+2. **About Page Kit** — story and brand narrative pages that match the site style
+3. **Admin Panel Kit** — login-gated dashboards, product management, settings, orders
+4. **Store Admin Kit** — stock management, reorder alerts, order tracking
+5. **UI Styling Kit** — Tailwind/shadcn patterns, theming, responsive design, accessibility
 
-### Admin / commerce operations
-- `references/skills/admin-panel-kit-SKILL.md` — build a login-gated admin dashboard and management screens
-- `references/skills/store-admin-kit-SKILL.md` — manage stock levels, low-inventory alerts, and order tracking for a store backend
+### Reference Docs
+Eight supporting guides for design and UI decisions:
 
-### UI / design system
-- `references/skills/ui-styling-SKILL.md` — UI patterns using Tailwind and shadcn/ui
+- **Fonts** — 10+ vibe-based font pairings (luxury, futuristic, playful, etc.)
+- **shadcn/ui** — component setup, theming, and accessibility
+- **Tailwind** — utilities, responsive patterns, customization
+- **Canvas** — visual design principles and composition
 
-## Supporting references
+## Philosophy
 
-- `references/fonts.md` — font pairings by vibe
-- `references/fonts-by-vibe.md` — short alias for font guidance
-- `references/shadcn-components.md` — component catalog
-- `references/shadcn-theming.md` — color and theme setup
-- `references/shadcn-accessibility.md` — accessibility best practices
-- `references/tailwind-utilities.md` — utility class quick reference
-- `references/tailwind-responsive.md` — responsive layout patterns
-- `references/tailwind-customization.md` — custom config guidance
-- `references/canvas-design-system.md` — visual design principles
+These skills guide AI agents to build:
 
-## Suggested use
+✓ **Consistent** — matching existing brand systems and design tokens  
+✓ **Practical** — real auth, inventory, and order workflows  
+✓ **Usable** — legible admin interfaces, clear CTAs, good UX  
+✓ **Restrained** — on-brand styling that serves the business, not just aesthetics  
 
-Use the relevant skill file based on the feature you need:
+## How to use
 
-- Need a landing page? → `landing-page-kit-SKILL.md`
-- Need a brand/about page? → `about-page-kit-SKILL.md`
-- Need an admin panel? → `admin-panel-kit-SKILL.md`
-- Need stock + order management? → `store-admin-kit-SKILL.md`
-- Need UI styling help? → `ui-styling-SKILL.md`
+1. **Pick a skill** based on what you're building
+2. **Share the skill file** with your AI agent (copy and paste, or reference by filename)
+3. **Provide any context** — existing site design, colors, typography, brand vibe
+4. **Reference the supporting docs** if you need guidance on fonts, components, or responsive patterns
 
-## File structure
+## Repository structure
 
-```text
-README.md
-references/
-  fonts.md
-  fonts-by-vibe.md
-  shadcn-components.md
-  shadcn-theming.md
-  shadcn-accessibility.md
-  tailwind-utilities.md
-  tailwind-responsive.md
-  tailwind-customization.md
-  canvas-design-system.md
-  skills/
-    README.md
-    admin-panel-kit-SKILL.md
-    store-admin-kit-SKILL.md
-    about-page-kit-SKILL.md
-    landing-page-kit-SKILL.md
-    ui-styling-SKILL.md
+```
+.
+├── README.md (this file)
+├── skills/
+│   ├── landing-page-kit.md
+│   ├── about-page-kit.md
+│   ├── admin-panel-kit.md
+│   ├── store-admin-kit.md
+│   └── ui-styling.md
+└── references/
+    ├── fonts.md
+    ├── fonts-by-vibe.md
+    ├── shadcn-components.md
+    ├── shadcn-theming.md
+    ├── shadcn-accessibility.md
+    ├── tailwind-utilities.md
+    ├── tailwind-responsive.md
+    ├── tailwind-customization.md
+    └── canvas-design-system.md
 ```
 
-## Purpose
+## License
 
-These skill files are designed to help an AI agent create consistent storefront and admin experiences that are:
-
-- visually aligned with the brand
-- practical for real business work
-- more usable than generic template output
-- structured around authentic auth, inventory, and order flows where needed
+MIT

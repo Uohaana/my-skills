@@ -2,29 +2,45 @@
 
 A clean, focused skill library for building storefront, brand, and admin experiences with AI assistance.
 
-## Quick start
+## 🚀 Quick links for AI agents
 
-**Skills** (use these directly with your AI agent):
-- [`landing-page-kit`](./skills/landing-page-kit.md) — build a landing page with hero, value props, and CTA
-- [`about-page-kit`](./skills/about-page-kit.md) — build an about/story page that matches the site
-- [`admin-panel-kit`](./skills/admin-panel-kit.md) — build a login-gated admin dashboard and management pages
-- [`store-admin-kit`](./skills/store-admin-kit.md) — build stock and order management for store operations
-- [`ui-styling`](./skills/ui-styling.md) — UI patterns with Tailwind and shadcn/ui
+Share these direct links with Claude, Manus, or any AI agent:
 
-**References** (use these to guide styling and component choices):
-- [`fonts`](./references/fonts.md) — font pairings by vibe
-- [`shadcn-components`](./references/shadcn-components.md) — component catalog
-- [`shadcn-theming`](./references/shadcn-theming.md) — color and theming
-- [`shadcn-accessibility`](./references/shadcn-accessibility.md) — accessibility patterns
-- [`tailwind-utilities`](./references/tailwind-utilities.md) — utility class guide
-- [`tailwind-responsive`](./references/tailwind-responsive.md) — responsive layout
-- [`tailwind-customization`](./references/tailwind-customization.md) — Tailwind config
-- [`canvas-design-system`](./references/canvas-design-system.md) — visual design principles
+- **Landing page:** https://raw.githubusercontent.com/Uohaana/dxc/main/skills/landing-page-kit.md
+- **About page:** https://raw.githubusercontent.com/Uohaana/dxc/main/skills/about-page-kit.md
+- **Admin panel:** https://raw.githubusercontent.com/Uohaana/dxc/main/skills/admin-panel-kit.md
+- **Store admin (stock + orders):** https://raw.githubusercontent.com/Uohaana/dxc/main/skills/store-admin-kit.md
+- **UI styling:** https://raw.githubusercontent.com/Uohaana/dxc/main/skills/ui-styling.md
+
+## Browser links
+
+Or view them in GitHub:
+
+- [Landing page kit](./skills/landing-page-kit.md)
+- [About page kit](./skills/about-page-kit.md)
+- [Admin panel kit](./skills/admin-panel-kit.md)
+- [Store admin kit](./skills/store-admin-kit.md)
+- [UI styling kit](./skills/ui-styling.md)
+
+## Supporting references
+
+**Design & typography:**
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/fonts.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/canvas-design-system.md
+
+**shadcn/ui & Tailwind:**
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/shadcn-components.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/shadcn-theming.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/shadcn-accessibility.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/tailwind-utilities.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/tailwind-responsive.md
+- https://raw.githubusercontent.com/Uohaana/dxc/main/references/tailwind-customization.md
+
+---
 
 ## What's included
 
-### Skills
-Five focused skill files designed for use with AI coding agents:
+### Skills (5 files)
 
 1. **Landing Page Kit** — hero sections, value props, featured products, CTA, footer
 2. **About Page Kit** — story and brand narrative pages that match the site style
@@ -32,8 +48,7 @@ Five focused skill files designed for use with AI coding agents:
 4. **Store Admin Kit** — stock management, reorder alerts, order tracking
 5. **UI Styling Kit** — Tailwind/shadcn patterns, theming, responsive design, accessibility
 
-### Reference Docs
-Eight supporting guides for design and UI decisions:
+### References (8 files)
 
 - **Fonts** — 10+ vibe-based font pairings (luxury, futuristic, playful, etc.)
 - **shadcn/ui** — component setup, theming, and accessibility
@@ -51,10 +66,19 @@ These skills guide AI agents to build:
 
 ## How to use
 
-1. **Pick a skill** based on what you're building
-2. **Share the skill file** with your AI agent (copy and paste, or reference by filename)
-3. **Provide any context** — existing site design, colors, typography, brand vibe
-4. **Reference the supporting docs** if you need guidance on fonts, components, or responsive patterns
+### Option 1: Direct link to Claude or Manus
+
+Copy one of the raw GitHub URLs from above and paste it to your AI agent. It will load the skill file directly.
+
+### Option 2: Copy-paste the file
+
+Click a skill link above, view it in GitHub, copy the content, and paste it into your AI agent's context.
+
+### Option 3: Share the repo
+
+Give this repo URL to your AI agent: `https://github.com/Uohaana/dxc`
+
+They can explore all the skills and references.
 
 ## Repository structure
 

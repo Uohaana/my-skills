@@ -2,6 +2,16 @@
 
 A combined library of practical AI skills for building storefront, brand, and admin experiences with clear, production-aware guidance.
 
+## For LLMs
+
+Use these exact raw GitHub URLs when importing the skills into Manus, Claude, or other LLM tools:
+
+- Landing page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/landing-page-kit.md
+- About page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/about-page-kit.md
+- Admin panel: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/admin-panel-kit.md
+- Store admin: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/store-admin-kit.md
+- UI styling: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/ui-styling.md
+
 ## 🚀 Quick links for AI agents (Manus, Claude, etc.)
 
 Share these direct raw links with Manus so it can load the exact skill file immediately:

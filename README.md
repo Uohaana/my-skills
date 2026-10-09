@@ -1,125 +1,54 @@
-# My Skills — Storefront + Admin Skill Library
+# My Skills
 
-A combined library of practical AI skills for building storefront, brand, and admin experiences with clear, production-aware guidance.
+A practical library of AI skill files for building storefronts, brand pages, admin tools, and frontend systems with more clarity and less guesswork.
 
-## For LLMs
+## Why this repo exists
 
-Use these exact raw GitHub URLs when importing the skills into Manus, Claude, or other LLM tools:
+This project is meant to help an AI assistant work on real product tasks without starting from a blank page every time. Instead of vague instructions, each skill is focused on a concrete UI or workflow problem.
 
-- Landing page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/landing-page-kit.md
-- About page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/about-page-kit.md
-- Admin panel: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/admin-panel-kit.md
-- Store admin: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/store-admin-kit.md
-- UI styling: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/ui-styling.md
+It is a small system for getting better results faster.
 
-## 🚀 Quick links for AI agents (Manus, Claude, etc.)
+## Available skills
 
-Share these direct raw links with Manus so it can load the exact skill file immediately:
+- Landing Page Kit — storefront and marketing page patterns
+- About Page Kit — story pages that match the rest of the brand
+- Admin Panel Kit — product and operations dashboards
+- Store Admin Kit — inventory and order workflows
+- UI Styling Kit — styling guidance using Tailwind and shadcn/ui
 
-- Landing page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/landing-page-kit.md
-- About page: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/about-page-kit.md
-- Admin panel: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/admin-panel-kit.md
-- Store admin: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/store-admin-kit.md
-- UI styling: https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/ui-styling.md
+## Quick links
 
-## Browser links
+### Raw GitHub links for AI tools
 
-Or open them directly in GitHub:
-
-- [Landing page kit](./skills/landing-page-kit.md)
-- [About page kit](./skills/about-page-kit.md)
-- [Admin panel kit](./skills/admin-panel-kit.md)
-- [Store admin kit](./skills/store-admin-kit.md)
-- [UI styling kit](./skills/ui-styling.md)
-
-## Supporting references
-
-**Design & typography:**
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/fonts.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/fonts-by-vibe.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/canvas-design-system.md
-
-**shadcn/ui & Tailwind:**
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/shadcn-components.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/shadcn-theming.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/shadcn-accessibility.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/tailwind-utilities.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/tailwind-responsive.md
-- https://raw.githubusercontent.com/Uohaana/my-skills/main/references/tailwind-customization.md
-
----
-
-## What's included
-
-### Skills (5 files)
-
-1. Landing Page Kit — hero sections, value props, featured products, CTAs, and footer patterns
-2. About Page Kit — brand story and narrative pages that match the rest of the site
-3. Admin Panel Kit — login-gated dashboards, product management, settings, and order views
-4. Store Admin Kit — stock management, reorder alerts, and order tracking flows
-5. UI Styling Kit — Tailwind + shadcn/ui patterns for usable, accessible interfaces
-
-### References (8+ files)
-
-- Fonts and vibe pairings
-- shadcn/ui component guidance
-- Tailwind utility and responsive patterns
-- design composition principles for brand-consistent interfaces
-
-## Philosophy
-
-These skills are meant to guide AI agents to build:
-
-✓ Consistent experiences that match an existing brand system
-✓ Practical commerce and admin workflows with real business logic
-✓ Usable interfaces with clear states, layouts, and actions
-✓ Restraint and clarity over decorative complexity
+- [Landing Page Kit](https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/landing-page-kit.md)
+- [About Page Kit](https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/about-page-kit.md)
+- [Admin Panel Kit](https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/admin-panel-kit.md)
+- [Store Admin Kit](https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/store-admin-kit.md)
+- [UI Styling Kit](https://raw.githubusercontent.com/Uohaana/my-skills/main/skills/ui-styling.md)
 
 ## How to use
 
-### Option 1: Direct link to Manus
+1. Pick the skill that matches the task.
+2. Open the raw file or GitHub page.
+3. Copy the guidance into your AI tool.
+4. Add your project context: brand, stack, and constraints.
 
-Copy one of the raw GitHub URLs above and paste it directly into Manus. It will load the skill file context immediately.
+## Philosophy
 
-### Option 2: Copy-paste the file
+These skills are designed to be practical rather than decorative. They help produce interfaces that are usable, consistent, and aligned with a real product goal.
 
-Open a skill in GitHub, copy the content, and paste it into your AI agent manually.
-
-### Option 3: Share the repo
-
-Give Manus this repo URL:
-
-https://github.com/Uohaana/my-skills
-
-It can explore the full skill library and supporting references.
+That is what matters more than flashy prompts or vague design language.
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── SKILL.md
 ├── skills/
-│   ├── README.md
-│   ├── landing-page-kit.md
-│   ├── about-page-kit.md
-│   ├── admin-panel-kit.md
-│   ├── store-admin-kit.md
-│   └── ui-styling.md
 ├── references/
-│   ├── fonts.md
-│   ├── fonts-by-vibe.md
-│   ├── shadcn-components.md
-│   ├── shadcn-theming.md
-│   ├── shadcn-accessibility.md
-│   ├── tailwind-utilities.md
-│   ├── tailwind-responsive.md
-│   ├── tailwind-customization.md
-│   ├── canvas-design-system.md
-│   └── skills/
 └── LICENSE
 ```
 
-## License
+## Credits
 
-MIT
+Built as a reusable research and UI guidance library for product and frontend work.
